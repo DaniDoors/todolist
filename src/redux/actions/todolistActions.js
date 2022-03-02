@@ -10,3 +10,9 @@ export const eliminateTaskTodolist = (posicio) => {
     payload: posicio,
   };
 };
+export const changeTodolistState = (posicio) => {
+  return {
+    type: "CHANGE_STATE",
+    payload: posicio,
+  };
+};
